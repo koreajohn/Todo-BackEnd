@@ -90,12 +90,19 @@ public class SecurityConfig {
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
-        configuration.setAllowedOriginPatterns(List.of("*"));  // 더 유연한 설정
+
+        // 로컬 개발 환경의 모든 포트 허용
+        configuration.setAllowedOriginPatterns(List.of("http://localhost:[*]"));
+
+        // 허용할 HTTP 메서드 설정
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"));
+
+        // 허용할 헤더 설정 (한 번만 설정)
         configuration.setAllowedHeaders(List.of("*"));
-        configuration.setAllowedHeaders(List.of("Authorization", "Content-Type"));  // Authorization 명시
-        configuration.setExposedHeaders(List.of("Authorization"));   // Authorization 명시
-        configuration.setExposedHeaders(List.of("*"));  // 추가
+
+        // 노출할 헤더 설정 (한 번만 설정)
+        configuration.setExposedHeaders(List.of("*"));
+
         configuration.setAllowCredentials(true);
         configuration.setMaxAge(3600L);
 
