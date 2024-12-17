@@ -13,7 +13,8 @@ Swagger UI로 모든 API를 테스트해볼 수 있습니다.
 🚀 실행 방법
 
 1️⃣ 프로젝트 클론
-bashCopygit clone -b master https://github.com/koreajohn/Todo-BackEnd.git
+
+clone -b master https://github.com/koreajohn/Todo-BackEnd.git
 
 2️⃣ 프로젝트 설정
 
