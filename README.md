@@ -4,8 +4,11 @@
 
 Todo List와 Calendar에서 일정을 등록하고 양방향으로 확인할 수 있는 통합 일정 관리 애플리케이션입니다.
 
+API 명세서: Swagger UI http://localhost:8080/swagger-ui/index.html
+
 🚀 실행 방법
-참고 Swagger UI http://localhost:8080/swagger-ui/index.html#/
+
+참고 Swagger UI http://localhost:8080/swagger-ui/index.html
 
 원하는 폴더에서 Git Bash 실행
 
