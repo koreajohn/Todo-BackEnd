@@ -30,18 +30,10 @@ resources 폴더에 첨부된 application.properties 파일 추가
 AssignmentApplication Run
 
 🛠️ 기술 스택
-🌟 Tech Stack 🌟
-<div align="center">
 
-  
-Show Image
-Show Image
-Show Image
-Show Image
-Show Image
-Show Image
-Show Image
-Show Image
+🌟 Tech Stack 🌟
+
+<div align="center">
 <br/>
 🔙 Backend
 <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
