@@ -33,7 +33,6 @@ AssignmentApplication Run
 
 🌟 Tech Stack 🌟
 <div align="center">
-<br/>
 🔙 Backend
 <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
@@ -48,7 +47,7 @@ AssignmentApplication Run
 <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black"/>
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
 </div>
-
+</br>
 🔐 Spring Security
 <details>
 <summary><b>상세 보기</b></summary>
