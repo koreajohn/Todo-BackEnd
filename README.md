@@ -8,8 +8,6 @@ API 명세서: Swagger UI http://localhost:8080/swagger-ui/index.html
 
 🚀 실행 방법
 
-참고 Swagger UI http://localhost:8080/swagger-ui/index.html
-
 원하는 폴더에서 Git Bash 실행
 
 프로젝트 클론
