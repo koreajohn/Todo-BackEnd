@@ -30,9 +30,9 @@ resources 폴더에 첨부된 application.properties 파일 추가
 AssignmentApplication Run
 
 🛠️ 기술 스택
-
-<div align="center">
 🌟 Tech Stack 🌟
+<div align="center">
+
   
 Show Image
 Show Image
