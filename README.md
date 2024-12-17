@@ -32,7 +32,6 @@ AssignmentApplication Run
 🛠️ 기술 스택
 
 🌟 Tech Stack 🌟
-
 <div align="center">
 <br/>
 🔙 Backend
@@ -49,6 +48,7 @@ AssignmentApplication Run
 <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black"/>
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
 </div>
+
 🔐 Spring Security
 <details>
 <summary><b>상세 보기</b></summary>
