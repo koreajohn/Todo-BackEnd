@@ -1,11 +1,16 @@
 📅 Todo List & Calendar App
+
 💫 소개
+
 Todo List와 Calendar에서 일정을 등록하고 양방향으로 확인할 수 있는 통합 일정 관리 애플리케이션입니다.
+
 🚀 실행 방법
 참고 Swagger UI http://localhost:8080/swagger-ui/index.html#/
 
 원하는 폴더에서 Git Bash 실행
+
 프로젝트 클론
+
 bashCopygit clone -b master https://github.com/koreajohn/Todo-BackEnd.git
 
 IDE에서 프로젝트 오픈
@@ -16,6 +21,7 @@ VS Code나 IntelliJ 등 선호하는 IDE 사용
 application.properties 파일 생성
 
 resources 디렉토리 생성
+
 resources 하위에 첨부드린 application.properties 붙혀넣기
 
 
@@ -26,6 +32,7 @@ AssignmentApplication Run
 
 
 🛠️ 주요 컴포넌트 및 기술 스택
+
 Spring Security
 
 기능
