@@ -1,18 +1,13 @@
 📅 Todo List & Calendar App
-
 💫 소개
-
 Todo List와 Calendar에서 일정을 등록하고 양방향으로 확인할 수 있는 통합 일정 관리 애플리케이션입니다.
-
 📚 API 문서
 
 Swagger UI로 모든 API를 테스트해볼 수 있습니다.
-접속 URL: http://localhost:8080/swagger-ui/index.html
 
 🚀 실행 방법
 1️⃣ 프로젝트 클론
 bashCopygit clone -b master https://github.com/koreajohn/Todo-BackEnd.git
-
 2️⃣ 프로젝트 설정
 
 VS Code나 IntelliJ 등 선호하는 IDE에서 프로젝트 오픈
@@ -28,7 +23,31 @@ resources 폴더에 첨부된 application.properties 파일 추가
 AssignmentApplication Run
 
 🛠️ 기술 스택
-
+<div align="center">
+🌟 Tech Stack 🌟
+Show Image
+Show Image
+Show Image
+Show Image
+Show Image
+Show Image
+Show Image
+Show Image
+<br/>
+🔙 Backend
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring Security-6DB33F?style=flat-square&logo=spring-security&logoColor=white"/>
+<img src="https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+🎨 Frontend
+<img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+☁️ DevOps
+<img src="https://img.shields.io/badge/AWS EC2-FF9900?style=flat-square&logo=amazon-ec2&logoColor=white"/>
+🛠️ Tools
+<img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
+</div>
 🔐 Spring Security
 <details>
 <summary><b>상세 보기</b></summary>
@@ -160,3 +179,8 @@ RESTful 데이터 처리
 🔒 보안성 강화
 🏗️ 확장 가능한 아키텍처 구현
 👥 효율적인 협업 환경 구축
+
+
+<div align="center">
+© 2024 Todo List & Calendar App - Developed with ❤️ by koreajohn
+</div>
