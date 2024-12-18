@@ -28,9 +28,27 @@ VS Code나 IntelliJ 등 선호하는 IDE에서 프로젝트 오픈
 
 src/main 하위경로에 resources 디렉토리 생성 -> 첨부드린 application.properties 파일 붙혀넣기
 
-3️⃣ 서버 실행
+상단에 File -> Project Structure -> Project SDK: jdk 17 선택 
 
-AssignmentApplication Run
+FIle -> Platform Setting -> SDKs: 17 버전 선택 
+
+Apply -> OK 클릭
+
+상단에 File -> Settings -> Build, Execution, Deployment -> Build Tools -> Gradle 클릭
+
+Gradle JVM jdk 17 버전 선택
+
+Apply -> OK 클릭
+
+
+
+3️⃣ DB 스키마 및 기초데이터 등록 및 서버 실행
+
+첨부드린 쿼리 순서대로 실행
+
+어플리케이션 실행 
+
+AssignmentApplication Run 클릭
 
 🛠️ 기술 스택
 
