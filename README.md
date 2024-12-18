@@ -21,12 +21,8 @@ clone -b master https://github.com/koreajohn/Todo-BackEnd.git
 2️⃣ 프로젝트 설정
 
 VS Code나 IntelliJ 등 선호하는 IDE에서 프로젝트 오픈
-resources 디렉토리 생성
-application.properties 파일 설정
 
-resources 폴더에 첨부된 application.properties 파일 추가
-
-
+src/main 하위경로에 resources 디렉토리 생성 -> 첨부드린 application.properties 파일 붙혀넣기
 
 3️⃣ 서버 실행
 
