@@ -16,7 +16,11 @@ Swagger 사용법 : signUp 요청 -> login 진행 -> 응답 받은 토큰 Bearer
 
 1️⃣ 프로젝트 클론
 
-clone -b master https://github.com/koreajohn/Todo-BackEnd.git
+원하는 경로에 폴더 생성 후 Git Bash Here 클릭
+
+git init
+
+git clone -b master https://github.com/koreajohn/Todo-BackEnd.git
 
 2️⃣ 프로젝트 설정
 
