@@ -8,6 +8,8 @@ Todo List와 Calendar에서 일정을 등록하고 양방향으로 확인할 수
 
 Swagger UI로 모든 API를 테스트해볼 수 있습니다.
 
+Swagger 사용법 : signUp 요청 -> login 진행 -> 응답 받은 토큰 Bearer 제외하고 토큰값만 최상단 Authorize Value란에 붛혀넣기 후 Authorize 클릭 이후 모든 서비스 이용가능
+
 접속 URL: http://localhost:8080/swagger-ui/index.html
 
 🚀 실행 방법
