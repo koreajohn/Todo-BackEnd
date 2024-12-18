@@ -21,9 +21,8 @@ public class MemberServiceImpl implements MemberService{
     public Member signUp(SignUpRequest signUpRequest) {
         String encPassword = securityConfig.passwordEncoder().encode(signUpRequest.getPassword());
         Member memberEntity = Member.createUser(signUpRequest.getUsername(), encPassword);
-        log.info("!encPassword: "+ encPassword);
-        memberRepository.save(memberEntity);
-        return null;
+
+        return memberRepository.save(memberEntity);
     }
 
     @Override

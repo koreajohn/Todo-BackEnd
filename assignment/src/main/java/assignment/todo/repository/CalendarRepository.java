@@ -39,9 +39,12 @@ public interface CalendarRepository extends JpaRepository<Calendar ,Long> {
             "FROM Calendar c JOIN c.todo t " +
             "WHERE c.member.id = :memberId AND c.deleteYn = 0")
     List<CalendarResponse> findCalendarResponsesByMemberId(@Param("memberId") Long memberId);
+
     @Modifying
-    @Transactional
     @Query(value = "UPDATE calendar SET is_finished = CASE WHEN is_finished = 1 THEN 0 ELSE 1 END WHERE id = :id AND is_deleted = 0", nativeQuery = true)
     int updateFinishYnById(@Param("id") Long id);
+
+
+    Calendar findByMemberId(Long memberId);
 
 }

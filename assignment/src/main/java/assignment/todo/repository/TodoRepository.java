@@ -2,6 +2,7 @@ package assignment.todo.repository;
 
 import assignment.todo.dto.TodoCalendarRequest;
 import assignment.todo.dto.TodoResponse;
+import assignment.todo.entity.Member;
 import assignment.todo.entity.Todo;
 import jakarta.transaction.Transactional;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -11,21 +12,22 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Optional;
 
 @Repository
 @Transactional
 public interface TodoRepository extends JpaRepository<Todo,Long> {
 
-    @Modifying
+    @Modifying(clearAutomatically = true)  // clearAutomatically = true 추가
     @Query(value = "UPDATE todo SET is_deleted = 1 WHERE todo_id = :id", nativeQuery = true)
     int updateDeleteYnById(@Param("id") Long id);
 
-    @Modifying
+    @Modifying(clearAutomatically = true)  // clearAutomatically = true 추가
     @Transactional
     @Query(value = "UPDATE todo SET is_finished = CASE WHEN is_finished = 1 THEN 0 ELSE 1 END WHERE todo_id = :id AND member_id = :memberId", nativeQuery = true)
     int updateFinishYnById(@Param("id") Long id, @Param("memberId") Long memberId);
 
-    @Modifying
+    @Modifying(clearAutomatically = true)  // clearAutomatically = true 추가
     @Query("UPDATE Todo t SET t.content = :content WHERE t.id = :todoId AND t.member.id = :memberId")
     void updateTodoContent(@Param("todoId") Long todoId, @Param("memberId") Long memberId, @Param("content") String content);
 
@@ -43,6 +45,7 @@ public interface TodoRepository extends JpaRepository<Todo,Long> {
             "FROM Todo t JOIN Calendar c ON t.id = c.todo.id " +
             "WHERE t.member.id = :memberId AND t.deleteYn = 0 AND c.deleteYn = 0")
     List<TodoResponse> findTodoResponsesByMemberId(@Param("memberId") Long memberId);
+    Todo findByMemberIdAndContent(Long memberId , String content);
 
-
+    Optional<Todo> findByMemberAndContent(Member member, String content);
 }
