@@ -50,6 +50,8 @@ Apply -> OK 클릭
 
 AssignmentApplication Run 클릭
 
+http://localhost:3000 접속 후 id: admin@naver.com / password: password로 로그인 후 서비스 이용 
+
 🛠️ 기술 스택
 
 🌟 Tech Stack 🌟
