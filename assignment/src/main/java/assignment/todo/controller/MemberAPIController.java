@@ -22,5 +22,11 @@ public class MemberAPIController {
         memberService.signUp(signUprequest);
         return ResponseEntity.ok("회원가입이 성공 했습니다.");  // 200 OK 응답
     }
-
+    @PostMapping("/login")
+    public ResponseEntity<?> login(@RequestBody SignUpRequest loginRequest, HttpSession session){
+        log.info("!loginRequest.getUsername():  "+ loginRequest.getUsername());
+        log.info("!loginRequest.getPassword(): "+loginRequest.getPassword());
+        Member member =  memberService.login(loginRequest);
+        return ResponseEntity.ok(member);  // 200 OK 응답
+    }
 }
