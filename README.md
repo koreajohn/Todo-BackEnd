@@ -4,7 +4,7 @@
 
 Todo List와 Calendar에서 일정을 등록하고 양방향으로 확인할 수 있는 통합 일정 관리 애플리케이션입니다.
 
-배포 서버 URL: https://todo-front-end-one.vercel.app
+배포 서버 URL:  https://todo-front-end-one.vercel.app
 
 📚 API 문서
 
